@@ -2,17 +2,12 @@ package hw02;
 
 import java.util.Random;
 /**
- * Name:        Adam Dixon
- * CIN:         304772993
- * Course:      Programming with Data Structures
- * Section:     CS-2013
+ * Author:        Adam Dixon
  * Description: This class creates an empty list with spaces based on the given size.
  */
 public class CustomList<E extends Comparable<E>> {
 	    private E[] data;
-		//Creates an empty list with spaces based on the given size.
-	    //NOTE: This constructor is only used to help implement some methods 
-	    //		later in the class.
+		//Creates an empty list with spaces based on the given size. 
 	    private CustomList(int size) {
 	        this.data = (E[])(new Comparable[size]);
 	    }
@@ -108,6 +103,7 @@ public class CustomList<E extends Comparable<E>> {
 				return newString;
 	    }
 	    
+
 	    public void sort() {
 				boolean sortIt = false;
 				int var = this.size();

@@ -1,9 +1,6 @@
 package hw02;
 /**
- * Name:        Adam Dixon
- * CIN:         304772993
- * Course:      Programming with Data Structures
- * Section:     CS-2013
+ * Author:        Adam Dixon
  * Description: This class give attributes and methods to a person
  */
 public class Person implements Comparable<Person>{
